@@ -242,3 +242,7 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+override_whitelisted_methods = {
+    "erpnext.e_commerce.doctype.website_item.website_item.get_product_filter_data":
+        "sunnet_sarayi_theme.overrides.get_product_filter_data_override"
+}
